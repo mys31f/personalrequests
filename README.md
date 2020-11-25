@@ -6,5 +6,6 @@ E.g: `cd ~/personalrequests/Maestro`
 3. Type this in to initiate the script: `sh setup.sh`
 
 Video guides:
-How to run the script: https://streamable.com/lmhpmb
+How to run the script: https://streamable.com/lmhpmb 
 How to set up typing on Ibus: https://streamable.com/wezjdc
+The guides are based on Maestro's requested script and Ubuntu GNOME 20.10
