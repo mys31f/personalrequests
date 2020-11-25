@@ -11,7 +11,8 @@ ibus restart
 sudo apt install wget -y
 wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_88.0.702.0-1_amd64.deb
 sudo dpkg -i microsoft-edge-dev_88.0.702.0-1_amd64.deb
-sudo ubuntu-drivers autoinstall -y
+rm microsoft-edge-dev_88.0.702.0-1_amd64.deb
+sudo ubuntu-drivers autoinstall 
 echo "The PC will reboot in 30 seconds for the drivers to apply. Please wait."
 sleep 30
 reboot
