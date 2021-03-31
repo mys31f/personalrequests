@@ -13,4 +13,7 @@ rm discord-*.deb
 wget https://az764295.vo.msecnd.net/stable/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/code_1.54.3-1615806378_amd64.deb
 sudo dpkg -i code*.deb
 rm code*.deb
+wget https://repo.steampowered.com/steam/archive/precise/steam_latest.deb
+sudo dpkg -i steam_latest.deb
+rm steam_latest.deb
 echo "Finished. You can now exit the terminal."
